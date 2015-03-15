@@ -10,4 +10,4 @@ A single player 2D game developed using Action script 3.0. The player has abilit
  - Levels-In all there are four levels. The difficulty of each level is different. The difficulty level increases as the no of level, which the user completes, increases
 
 
-![alt tag](https://raw.github.com/nikhilkarmude/DhishoomMania/Login.png)
+![alt tag](https://raw.github.com/nikhilkarmude/DhishoomMania/master/Login.png)
