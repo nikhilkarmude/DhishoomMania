@@ -1,0 +1,103 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <AmethystProjectType>ActionScript</AmethystProjectType>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <MainSourceFolder>
+    </MainSourceFolder>
+    <ProjectGuid>{f0dc913f-9973-4cce-bda6-db4027930bcd}</ProjectGuid>
+    <SDKDirectory>
+    </SDKDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Incremental>true</Incremental>
+    <MainFile>Code\platformer.as</MainFile>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <UsePlayerToLaunch>True</UsePlayerToLaunch>
+    <FlashPlayer>C:\programming\Flash\flashplayer_10_2_sa_debug.exe</FlashPlayer>
+    <UseAlternatePlayer>True</UseAlternatePlayer>
+    <OutputFile>platformer.swf</OutputFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Incremental>true</Incremental>
+    <MainFile>platformer.as</MainFile>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <UsePlayerToLaunch>False</UsePlayerToLaunch>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Code\Characters\Brain.as" />
+    <Compile Include="Code\Characters\Character.as" />
+    <Compile Include="Code\Characters\eCollisionPoints.as" />
+    <Compile Include="Code\Characters\Enemy.as" />
+    <Compile Include="Code\Characters\LadySpikes.as" />
+    <Compile Include="Code\Characters\LadyBird.as" />
+    <Compile Include="Code\Characters\Player.as" />
+    <Compile Include="Code\Characters\SimpleEnemy.as" />
+    <Compile Include="Code\Characters\Skeleton.as" />
+    <Compile Include="Code\Characters\Star.as" />
+    <Compile Include="Code\Constants.as" />
+    <Compile Include="Code\eTileTypes.as" />
+    <Compile Include="Code\Geometry\AABB.as" />
+    <Compile Include="Code\Geometry\Circle.as" />
+    <Compile Include="Code\Geometry\Collide.as" />
+    <Compile Include="Code\Geometry\Contact.as" />
+    <Compile Include="Code\Geometry\IAABB.as" />
+    <Compile Include="Code\Geometry\ICircle.as" />
+    <Compile Include="Code\Geometry\PointAndDistanceContainer.as" />
+    <Compile Include="Code\Graphics\AnimationController.as" />
+    <Compile Include="Code\Graphics\Camera.as" />
+    <Compile Include="Code\Graphics\TileRenderer.as" />
+    <Compile Include="Code\Gui\Hud.as" />
+    <Compile Include="Code\Level\LastMap.as" />
+    <Compile Include="Code\Level\Map.as" />
+    <Compile Include="Code\Level\Map1.as" />
+    <Compile Include="Code\Level\Map2.as" />
+    <Compile Include="Code\Level\Room.as" />
+    <Compile Include="Code\Level\RoomData.as" />
+    <Compile Include="Code\Level\StartMap.as" />
+    <Compile Include="Code\Maths\Scalar.as" />
+    <Compile Include="Code\Maths\Vector2.as" />
+    <Compile Include="Code\Physics\MoveableObject.as" />
+    <Compile Include="Code\Pickups\Diamond.as" />
+    <Compile Include="Code\Platformer.as" />
+    <Compile Include="Code\System\Assert.as" />
+    <Compile Include="Code\System\eKeyCodes.as" />
+    <Compile Include="Code\System\GameLoop.as" />
+    <Compile Include="Code\System\Keyboard.as" />
+    <Compile Include="Code\System\NotImplementedException.as" />
+    <Compile Include="Code\System\Pool.as" />
+    <Compile Include="Code\System\ReferenceArray.as" />
+    <Compile Include="Code\System\UnexpectedCaseException.as" />
+    <Compile Include="Code\System\VectorPool.as" />
+  </ItemGroup>
+  <ItemGroup>
+    <AmethystReference Include="assets\assets.swc">
+      <Name>assets</Name>
+    </AmethystReference>
+    <AmethystReference Include="frameworks\libs\player">
+      <Name>playerglobal</Name>
+      <LibraryAction>External</LibraryAction>
+    </AmethystReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Code\" />
+    <Folder Include="Code\Characters\" />
+    <Folder Include="Code\Geometry\" />
+    <Folder Include="Code\Graphics\" />
+    <Folder Include="Code\Gui\" />
+    <Folder Include="Code\Level\" />
+    <Folder Include="Code\Maths\" />
+    <Folder Include="Code\Physics\" />
+    <Folder Include="Code\Pickups\" />
+    <Folder Include="Code\System\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SapphireSteel Software\Amethyst 2008\Amethyst.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

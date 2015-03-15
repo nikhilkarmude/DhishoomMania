@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2272FB12-AC45-420A-868F-0DA3061C2C3E}") = "platformer", "platformer.amproj", "{F0DC913F-9973-4CCE-BDA6-DB4027930BCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0DC913F-9973-4CCE-BDA6-DB4027930BCD}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{F0DC913F-9973-4CCE-BDA6-DB4027930BCD}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{F0DC913F-9973-4CCE-BDA6-DB4027930BCD}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{F0DC913F-9973-4CCE-BDA6-DB4027930BCD}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
