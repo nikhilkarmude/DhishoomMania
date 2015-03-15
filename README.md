@@ -9,5 +9,14 @@ A single player 2D game developed using Action script 3.0. The player has abilit
  - Facebook Share which allows the user to post their score on Facebook so that everyone is aware which game they played and what is their high score.
  - Levels-In all there are four levels. The difficulty of each level is different. The difficulty level increases as the no of level, which the user completes, increases
 
+#####Login Template:
+ - ![alt tag](https://raw.github.com/nikhilkarmude/DhishoomMania/master/Login.png)
 
-![alt tag](https://raw.github.com/nikhilkarmude/DhishoomMania/master/Login.png)
+#####LeaderBoard Template:
+ - ![alt tag](https://raw.github.com/nikhilkarmude/DhishoomMania/master/LEADERBOARD.png)
+ 
+
+#####Raw TileSet:
+ - ![alt tag](https://raw.github.com/nikhilkarmude/DhishoomMania/master/tiles.png)
+ 
+ 
